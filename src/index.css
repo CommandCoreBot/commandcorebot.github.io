@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Define Custom Colors as CSS Variables */
+:root {
+  --color-black-primary: #000000;
+  --color-white-primary: #ffffff;
+}
+
+@theme {
+  --color-white-primary: #ffffff;
+  --color-black-primary: #000000;
+}
+
+body {
+  background-color: var(--color-black-primary);
+}
+
+/* Custom CSS for the Liquid Glass Effect (Replaces the 'liquid-glass' Tailwind utility) */
+.liquid-glass {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Custom CSS for the Text Glow (Replaces the 'text-shadow-glow' utility) */
+
+/* Basic Tailwind reset for the body font */
+@layer base {
+  body {
+    font-family: sans-serif;
+  }
+}
