@@ -1,0 +1,98 @@
+Effective Date: January 11, 2026
+
+This Privacy Policy outlines how CommandCore ("we," "us," or "our"), operating the CommandCore Discord bot and the associated website at commandcore.cc, collects, uses, stores, and protects user data.
+
+1. Data We Collect and How We Collect It
+We collect and store information required for the proper functioning of the Discord bot and the website dashboard.
+
+A. Website Dashboard (commandcore.cc)
+When you log in to the CommandCore website dashboard using Discord, we collect and store the following information:
+
+Discord User ID: To identify your account.
+
+Discord Username and Discriminator: For display purposes on the dashboard.
+
+Guild (Server) IDs: To display the list of servers you manage and where CommandCore is active.
+
+This data is used solely to provide access to your server settings and configurations via the website dashboard and is stored securely.
+
+B. Discord Bot (CommandCore)
+As a moderation and server management bot, CommandCore collects and stores the following data when actions are taken in a server where the bot is active. This data is necessary to manage moderation cases, enforce server rules, and provide logs.
+
+Based on your database schema, we collect:
+
+User IDs (Target and Reporter/Moderator):
+
+target_user_id (User who is the subject of a case/sanction/quarantine)
+
+reporter_user_id (User who initiated a report/case)
+
+moderator_id (User who issued a sanction or quarantine)
+
+revoked_by (User who revoked a sanction or quarantine)
+
+Purpose: To link specific actions and moderation history to the relevant Discord accounts.
+
+Server IDs (guild_id): To ensure data is scoped correctly to the server where the action took place.
+
+Purpose: To maintain server-specific records and settings.
+
+Channel IDs (channel_id): For tracking where a case was opened.
+
+Purpose: To provide context for moderation events.
+
+Case Details: Type, status, timestamps (opened_at, closed_at, issued_at, revoked_at), and reason for the action.
+
+Purpose: To create a verifiable audit log of moderation activity.
+
+Sanction Details: Type (e.g., Ban, Kick, Warning), duration, evidence, revoked_reason.
+
+Purpose: To track the specific details of moderation actions.
+
+Quarantine Details: roles (IDs of roles removed/added during quarantine).
+
+Purpose: To manage and restore user roles upon quarantine removal.
+
+Other User-Supplied Content (Optional): Evidence fields or reason text may contain user-supplied information or message content/links.
+
+2. How We Use Your Data
+We use the collected data exclusively for the following purposes:
+
+Bot Functionality: Operating the core features of the CommandCore bot, including moderation logging, server configuration, and server management.
+
+Dashboard Access: Allowing users to securely log in to and manage their servers via commandcore.cc.
+
+Audit Logs: Maintaining a historical record (audit trail) of moderation actions taken within a server.
+
+Security and Abuse Prevention: Investigating potential misuse of the bot or platform.
+
+3. Data Storage and Protection
+Security: All collected data is stored securely in a private database. We implement commercially reasonable measures to protect your information from unauthorized access, disclosure, alteration, or destruction.
+
+No Sharing/Selling: We do not sell, trade, or otherwise transfer your personally identifiable information to third parties for marketing or advertising purposes.
+
+Limited Disclosure: Your data will only be shared with third parties if required by law (e.g., in response to a subpoena or court order) or if necessary to protect our rights or the safety of others.
+
+4. Data Retention
+We only retain collected information for as long as necessary to provide you with the CommandCore service and to maintain accurate moderation records for the servers using the bot.
+
+Moderation Records: Moderation data (cases, sanctions, quarantines) is retained as long as the server remains active with CommandCore to ensure a complete moderation history is available. This data is removed upon request or when CommandCore is permanently removed from a server, subject to legal requirements.
+
+Website Data: Your Discord login data for the website is retained while you have an active account/use the bot, and is removed upon request.
+
+5. Your Rights (GDPR and CCPA)
+Depending on your location, you may have rights regarding your personal data.
+
+Access/Portability: You have the right to request a copy of the personal data we hold about you.
+
+Correction: You have the right to request that we correct any inaccurate personal data we hold about you.
+
+Deletion (Right to be Forgotten): You have the right to request the deletion of your personal data, subject to legal obligations. Please note that data related to moderation actions (e.g., being the target of a sanction) is part of a server's historical log, which may limit deletion possibilities for audit integrity. Refusal of Deletion for Moderation Data: We may refuse to delete data classified as "Sanctions" or "Cases" (including the associated User IDs and reasons) where processing is necessary for the establishment, exercise, or defence of legal claims (GDPR Article 17(3)(e)). This is to ensure the safety of the community, the consistent enforcement of server rules, and to maintain a verifiable audit trail of misconduct for the protection of all server members.
+
+To exercise any of these rights, please contact us at the address provided below.
+
+6. Changes to this Policy
+We reserve the right to modify this Privacy Policy at any time. Any changes will be posted on this page with an updated effective date. Your continued use of CommandCore after any changes signifies your acceptance of the updated policy.
+
+7. Contact Information
+If you have any questions about this Privacy Policy or our data practices, please contact us in our support channel here: https://discord.gg/98RBhxugyG.

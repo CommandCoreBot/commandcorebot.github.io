@@ -1,0 +1,48 @@
+Effective Date: January 11, 2026
+
+These Terms of Service ("Terms") govern your access to and use of the CommandCore Discord bot and the associated website and dashboard, located at commandcore.cc (collectively, the "Service"). By using the Service, you agree to be bound by these Terms.
+
+1. Acceptance of Terms
+By adding the CommandCore bot to a Discord server, logging in to the commandcore.cc website, or otherwise using the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree to these Terms, you may not use the Service.
+
+2. Description of Service
+CommandCore is a Discord bot designed to provide moderation tools, server management utilities, and configuration options for Discord servers. The website dashboard at commandcore.cc provides a graphical interface for managing these settings.
+
+3. User Obligations
+You agree not to use the Service:
+
+In any way that violates any applicable national or international law or regulation.
+
+To spam, phish, abuse, or engage in any conduct that is harmful, threatening, or harassing.
+
+To interfere with or disrupt the integrity or performance of the Service.
+
+To attempt to gain unauthorized access to the Service, or its related systems or networks.
+
+4. Data and Privacy
+Your use of the Service is also governed by our Privacy Policy, which is incorporated by reference into these Terms. By using the Service, you consent to the collection and use of your data as outlined in the Privacy Policy.
+
+5. Disclaimer of Warranties
+The Service is provided on an "as is" and "as available" basis. CommandCore makes no warranties, expressed or implied, regarding the Service, including but not limited to the security, reliability, availability, or performance of the Service. We do not warrant that the Service will meet your requirements or be error-free.
+
+6. Limitation of Liability
+In no event shall CommandCore be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to, loss of profits, data, use, goodwill, or other intangible losses, resulting from:
+
+Your access to or use of, or inability to access or use, the Service.
+
+Any conduct or content of any third party on the Service.
+
+Any content obtained from the Service.
+
+Unauthorized access, use, or alteration of your data or transmissions.
+
+This includes any issues arising from the bot's moderation actions (e.g., incorrect bans or mutes) or the loss of configuration data.
+
+7. Changes to Terms
+We reserve the right to modify or replace these Terms at any time at our sole discretion. We will provide reasonable notice of any material changes by posting the new Terms on the website. Your continued use of the Service after the effective date of the new Terms constitutes your acceptance of the changes.
+
+8. Governing Law
+These Terms shall be governed and construed in accordance with the laws of The Kingdom of the Netherlands, without regard to its conflict of law provisions.
+
+9. Termination
+We may terminate or suspend your access to the Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
