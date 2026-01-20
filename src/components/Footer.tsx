@@ -5,8 +5,8 @@ export default function Footer() {
         <p>&copy; {new Date().getFullYear()} CommandCore. All rights reserved.</p>
         <div className="mt-2 space-x-4">
           <a href="/docs" className="hover:text-white-primary transition">Docs</a>
-          <a href="#" className="hover:text-white-primary transition">Privacy Policy</a>
-          <a href="#" className="hover:text-white-primary transition">Terms of Service</a>
+          <a href="/privacy" className="hover:text-white-primary transition">Privacy Policy</a>
+          <a href="/terms" className="hover:text-white-primary transition">Terms of Service</a>
         </div>
       </div>
     </footer>

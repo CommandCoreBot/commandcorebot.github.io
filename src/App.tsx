@@ -9,6 +9,8 @@ import './index.css';
 import DocsPage from './pages/DocsPage';
 import DocArticle from './pages/DocArticle'; // Assuming you create this file
 import DeveloperPage from './pages/DevPage';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
               <Route path=":slug" element={<DocArticle />} />
             </Route>
             <Route path="/developer" element={<DeveloperPage />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Privacy />} />
           </Routes>
         </main>
         <Footer />

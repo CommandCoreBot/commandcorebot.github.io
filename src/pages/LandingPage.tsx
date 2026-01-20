@@ -51,12 +51,12 @@ export default function LandingPage() {
           className="flex justify-center space-x-4"
         >
           <a
-            href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID"
+            href="https://discord.com/oauth2/authorize?client_id=1390400453782671400&permissions=8&integration_type=0&scope=bot"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-white text-black text-lg font-bold rounded-full hover:bg-white/90 transition shadow-2xl hover:scale-[1.02] transform"
           >
-            Invite Bot
+            Get Started
           </a>
           <a
             href="/docs"
@@ -67,7 +67,7 @@ export default function LandingPage() {
         </motion.div>
       </motion.div>
       
-      {/* 2. Mockup/Feature Visual */}
+      {/* 2. Mockup/Feature Visual 
       <motion.div 
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -75,10 +75,10 @@ export default function LandingPage() {
         className="mt-20"
       >
         <div className="relative inline-block">
-          {/* Subtle background glow/gradient to enhance the floating feel */}
+          {/* Subtle background glow/gradient to enhance the floating feel 
           <div className="absolute inset-0 bg-white/5 rounded-[3rem] blur-3xl z-0"></div>
           
-          {/* Mockup area with the liquid glass effect */}
+          {/* Mockup area with the liquid glass effect }
           <div className="liquid-glass p-4 rounded-[3rem] inline-block relative z-10">
             <div className="w-full h-auto max-w-5xl rounded-[2.5rem] bg-black/50 flex items-center justify-center p-20 shadow-2xl border border-white/10">
               <p className="text-white/50 text-xl">
@@ -87,7 +87,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
 
       {/* 3. Feature Grid Section - Use whileInView to trigger animation on scroll */}
       <motion.div
